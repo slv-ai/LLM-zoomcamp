@@ -1,4 +1,6 @@
 1.The following packages are required when you run some of .py scripts
+
+
 pip install psycopg2-binary python-dotenv 
 
 pip install pgcli
