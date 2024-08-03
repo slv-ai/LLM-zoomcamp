@@ -17,7 +17,7 @@ def main():
         st.session_state.conversation_id=str(uuid.uuid4())
         print_log(f"new conversation started with id :{st.session_state.conversation_id}")
     if 'count' not in st.session_state:
-        st.sessiom_state.count  = 0
+        st.session_state.count  = 0
         print_log("feedback count initialized to 0")
 
     #course selection
